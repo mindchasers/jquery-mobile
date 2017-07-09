@@ -1182,7 +1182,8 @@ $.widget( "mobile.pagecontainer", {
 		}
 
 		// Set page title
-		document.title = pageTitle;
+		// REC TODO: Bug with title getting lost
+		// document.title = pageTitle;
 
 		// Set "toPage" as activePage deprecated in 1.4 remove in 1.5
 		$.mobile.activePage = toPage;
