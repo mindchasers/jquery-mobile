@@ -1,7 +1,11 @@
 .ui-controlgroup {
     margin: .5em 0;
 }
-
+@media all and (min-width: 25em) {
+	.ui-controlgroup {
+        width: 50%;
+    }
+}
 .ui-controlgroup .ui-button,
 .ui-controlgroup .ui-selectmenu {
     margin: 0;
